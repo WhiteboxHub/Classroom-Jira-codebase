@@ -1,0 +1,57 @@
+# version: "3"
+# services:
+#   jira:
+#     image: atlassian/jira-software:10.4.0  # You can change the version here
+#     container_name: jira
+#     environment:
+#       - ATLASSIAN_JIRA_DB_TYPE=h2
+#     ports:
+#       - "8080:8080"
+#     volumes:
+#       - jira-data:/var/atlassian/jira  # Persistent storage for Jira
+#     networks:
+#       - jira_network
+#     restart: always  # Restart container if it crashes
+
+# networks:
+#   jira_network:
+#     driver: bridge
+
+# volumes:
+#   jira-data:
+
+version: '3.8'
+
+services:
+  jira:
+    image: atlassian/jira-software:latest
+    container_name: jira
+    ports:
+      - "8080:8080"
+    environment:
+      - ATL_JDBC_URL=jdbc:postgresql://db:5432/jiradb
+      - ATL_JDBC_USER=jirauser
+      - ATL_JDBC_PASSWORD=jirapassword
+      - ATL_DB_DRIVER=org.postgresql.Driver
+    depends_on:
+      - db
+    volumes:
+      - jira_data:/var/atlassian/application-data/jira
+    restart: unless-stopped
+
+  db:
+    image: postgres:13
+    container_name: jira_db
+    environment:
+      POSTGRES_USER: jirauser
+      POSTGRES_PASSWORD: jirapassword
+      POSTGRES_DB: jiradb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  jira_data:
+  postgres_data:
+
+  
