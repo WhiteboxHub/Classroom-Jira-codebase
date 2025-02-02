@@ -67,7 +67,7 @@ Utilize Jira tools to monitor the progress of the project:
 
 ---
 
-## 7. Review and Retrospect ([Step_7](../Steps/Step_7.md))
+## 7. Review and Retrospect ([Step_7](../steps/Step_7.md))
 At the end of each sprint:
 - Analyze completed work and identify any blockers or areas for improvement.
 - Hold a **sprint retrospective** to discuss what went well and what can be improved for the next sprint.
