@@ -20,8 +20,7 @@ An Epic is a large feature or set of tasks that can be broken down into smaller 
 ## 4. Create the Epic:
 - After filling out the Epic details, click **Create** to add it to your project.
 
-![alt text](../steps/Epic.png)
-
+![alt text](./images/epic.png)
 
 ## User Story 1: 
 **As a user, I want to view programming technologies on the homepage to select my learning track.**

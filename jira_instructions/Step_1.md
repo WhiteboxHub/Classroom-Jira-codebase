@@ -26,7 +26,7 @@
 ### 8. Create:
    - Click **Create** to finalize the project creation.
 
-![alt text](<../steps/create_project.png>)
+![alt text](<./images/create_project.png>)
 
-![alt text](<../steps/name_of_the_project.png>)
+![alt text](<./images/name_of_the_project.png>)
 
