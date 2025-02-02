@@ -26,8 +26,9 @@
 ### 8. Create:
    - Click **Create** to finalize the project creation.
 
+![alt text](<create project_scrn.png>)
 
-![alt text](image-4.png)
+![alt text](<name of the project_scrn.png>)
 
 ![alt text](image-5.png)
 
