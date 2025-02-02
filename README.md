@@ -1,6 +1,6 @@
-# Jira Instructions
+# Jira Installation and Usage
 
-## Setting Up Jira with Docker
+## Using the JIRA containers
 - Run the following command to build the Docker images and start the services:
 
 ``` bash
