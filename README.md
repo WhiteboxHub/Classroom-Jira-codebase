@@ -24,12 +24,12 @@ http://localhost:8080
 
 ---
 
-## 1. Create Project ([Step_1](../Agile-Jira-codebase/Steps/Step_1.md))
+## 1. Create Project [Step_1](Steps/Step_1.md)
 Set up the **Whitebox Learning (WBL)** Scrum project in Jira to manage tasks and track progress.
 
 ---
 
-## 2. Define Epics ([Step_2](../Steps/Step_2.md))
+## 2. Define Epics ([Step_2](Steps/Step_2.md))
 Break down the entire system into large, high-level **epics**, such as:
 - Home Page
 - Schedule Management
