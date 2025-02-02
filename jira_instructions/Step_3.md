@@ -28,7 +28,7 @@ User stories represent smaller, detailed pieces of work within an Epic. Here’s
 - Set due dates based on your project timeline or sprint schedule.
 
 
-![alt text](<../steps/user_storis.png>)
+![alt text](<./images/user_stories.png>)
 
 ### User Stories
 
@@ -79,4 +79,4 @@ User stories represent smaller, detailed pieces of work within an Epic. Here’s
     3. Add export functionality to download resumes as PDFs.
 
 
-![alt text](../steps/storys.png)
+![alt text](./images/user_story.png)
