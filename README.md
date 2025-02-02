@@ -10,8 +10,29 @@ docker-compose up -d
 ```
 
 ## Verify That the Container is Running
+- To check if the Jira container is running, use:
+
 ```bash
 docker ps
+```
+## View Logs:
+- If you want to see the logs for Jira (useful for debugging), you can run:
+```bash
+docker-compose logs -f jira
+```
+## Stop Jira :
+- To stop the Jira container, use:
+```bash
+docker-compose down
+```
+- If you want to stop the container but keep the data volume (so that you don’t lose your Jira data):
+```bash
+docker-compose stop
+```
+## Restart Jira:
+- If you need to restart Jira for any reason:
+```bash
+docker-compose restart jira
 ```
 
 ## Open your web browser and go to
@@ -84,4 +105,4 @@ At the end of each sprint:
 
 
 
-### Thank you for checking out this repository. Happy coding!
+#### Thank you for checking out this repository. Happy coding!
