@@ -36,7 +36,7 @@ Daily standups are short meetings conducted to ensure team alignment and identif
 - As you move stories from **“To Do”** to **“In Progress”** and then to **“Done”**, Jira will update the board accordingly.
 
 
-![alt text](<../Agile-Jira-codebase/Project progress_ss.png>)
+![alt text](<../steps/project_progress.png>)
 
 
 

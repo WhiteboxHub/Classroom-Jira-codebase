@@ -92,7 +92,7 @@ docker-compose up -d
   - **Password**: `jirapassword`
 - Jira will automatically connect to the PostgreSQL database.
 
-![alt text](<DB setup.png>)
+![alt text](<../steps/db_setup.png>)
 
 ### 5. **Create Admin Account:**
 

@@ -11,7 +11,7 @@ Organize your stories and tasks into sprints. For example:
 - **Sprint 3**: "Finish Resources subpages (Recordings, Resume Builder)."  
 
 
-![alt text](../Agile-Jira-codebase/Sprint_ss.png)
+![alt text](../steps/sprint.png)
 
 **Sprint 1**:
 - Goal: Complete Home Page and FAQ Page.

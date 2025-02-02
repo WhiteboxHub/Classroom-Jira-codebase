@@ -12,19 +12,21 @@
 - **Purpose**: Displays the completed and pending tasks within the sprint.
 - **Usage**: Useful for assessing which tasks were finished and which remain unfinished at the end of the sprint.
 
-![alt text](<../Agile-Jira-codebase/Sprint report.png>)
+![alt text](<../steps/sprint_report.png>)
 
 ### 3. Issue Statistics
 - **Purpose**: Provides a breakdown of open, in-progress, and resolved issues.
 - **Usage**: Gives the team an understanding of how many issues are being worked on, how many are resolved, and which are still in the backlog.
 
-![alt text](<../Agile-Jira-codebase/ALL reports.png>)
+![alt text](<../steps/all_reports.png>)
 
 # Managing Epics and Stories
 
 ## 1. Track Epic Progress:
 - Track the overall progress of your Epic by viewing how many stories are completed.
 - Use the **Epic Burndown Chart** (available in Scrum) to visualize the completion rate of stories over time.
-![alt text](<../Agile-Jira-codebase/project summary_ss.png>)
+
+![alt text](<../steps/project_summary.png>)
+
 ## 2. Close Epic:
 - Once all user stories under the Epic are marked as **“Done”**, close the Epic by updating its status to **“Done”**.

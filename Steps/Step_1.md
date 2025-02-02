@@ -26,7 +26,7 @@
 ### 8. Create:
    - Click **Create** to finalize the project creation.
 
-![alt text](<../Agile-Jira-codebase/create project_scrn.png>)
+![alt text](<../steps/create_project.png>)
 
-![alt text](<../Agile-Jira-codebase/name of the project_scrn.png>)
+![alt text](<../steps/name_of_the_project.png>)
 

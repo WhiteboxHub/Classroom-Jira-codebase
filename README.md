@@ -1,10 +1,10 @@
-# Jira Document
-# Setting Up Jira with Docker
-## Build and Run the Container
+# Jira Instructions
+
+## Setting Up Jira with Docker
+- Run the following command to build the Docker images and start the services:
+
 ``` bash
 git clone git@github.com:WhiteboxHub/Classroom-Jira-codebase.git
-
-create docker-compose.yml file 
 
 docker-compose up -d
 ```
@@ -13,10 +13,19 @@ docker-compose up -d
 ```bash
 docker ps
 ```
+
 ## Open your web browser and go to
 ```bash
 http://localhost:8080
 ```
+## complete the setup Wizard :
+-	During the setup, select PostgreSQL as the database type.
+	-	Provide the following database connection details:
+	-	Hostname: db
+	-	Database: jiradb
+	-	Username: jirauser
+	-	Password: jirapassword
+	-	Jira will automatically connect to the PostgreSQL database.
 ## **Create Admin Account:**
    - Create an admin account during the setup.
    - Hear are the detailed steps([How to create Admin Account](Jira_docker_setup.md))
