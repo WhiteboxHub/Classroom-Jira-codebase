@@ -30,5 +30,3 @@
 
 ![alt text](<name of the project_scrn.png>)
 
-![alt text](image-5.png)
-
