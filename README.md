@@ -1,23 +1,26 @@
-# Jira-codebase
+# Jira Document
+# Setting Up Jira with Docker
+## Build and Run the Container
+``` bash
+git clone git@github.com:WhiteboxHub/Classroom-Jira-codebase.git
 
-# Repository Overview
+create docker-compose.yml file 
 
-# Jira Docker Setup with PostgreSQL
+docker-compose up -d
+```
 
-  ## Steps:- [Jira_docker_setup](Jira_docker_setup.md)
-
-1. **Prepare Files:**
-   - **Dockerfile**: Configures Jira to connect to PostgreSQL.
-   - **docker-compose.yml**: Defines Jira and PostgreSQL services.
-
-2. **Run Containers:**
-   - Use `docker-compose up -d` to start both services.
-
-3. **Complete Setup:**
-   - Go to `http://localhost:8080` to finish the Jira setup and connect to PostgreSQL.
-
-4. **Create Admin Account:**
+## Verify That the Container is Running
+```bash
+docker ps
+```
+## Open your web browser and go to
+```bash
+http://localhost:8080
+```
+## **Create Admin Account:**
    - Create an admin account during the setup.
+   - Hear are the detailed steps([How to create Admin Account](Jira_docker_setup.md))
+   
 
 ---
 

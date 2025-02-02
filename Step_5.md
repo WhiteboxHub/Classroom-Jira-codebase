@@ -35,7 +35,9 @@ Daily standups are short meetings conducted to ensure team alignment and identif
 - Use the **Scrum board** if you’re working with sprints or the **Kanban board** if you’re using a flow-based method to track the progress of user stories.
 - As you move stories from **“To Do”** to **“In Progress”** and then to **“Done”**, Jira will update the board accordingly.
 
-![alt text](<./Screenshot 2025-01-27 at 9.22.53 PM.png>)
+
+![alt text](<Project progress_ss.png>)
+
 
 
 ## 2. Update Issues:

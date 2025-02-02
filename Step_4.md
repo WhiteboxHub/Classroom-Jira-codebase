@@ -10,7 +10,8 @@ Organize your stories and tasks into sprints. For example:
 - **Sprint 2**: "Complete scheduling functionality."  
 - **Sprint 3**: "Finish Resources subpages (Recordings, Resume Builder)."  
 
-![alt text](image-1.png)
+
+![alt text](Sprint_ss.png)
 
 **Sprint 1**:
 - Goal: Complete Home Page and FAQ Page.
