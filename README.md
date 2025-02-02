@@ -51,7 +51,6 @@ http://localhost:8080
 	-	Jira will automatically connect to the PostgreSQL database.
 ## **Create Admin Account:**
    - Create an admin account during the setup.
-   - Hear are the detailed steps([How to create Admin Account](Jira_docker_setup.md) )
    
 
 ---
