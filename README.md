@@ -28,12 +28,12 @@ http://localhost:8080
 	-	Jira will automatically connect to the PostgreSQL database.
 ## **Create Admin Account:**
    - Create an admin account during the setup.
-   - Hear are the detailed steps([How to create Admin Account](Jira_docker_setup.md))
+   - Hear are the detailed steps([How to create Admin Account](Jira_docker_setup.md) )
    
 
 ---
 
-## 1. Create Project ([Step_1](Steps/Step_1.md))
+## 1. Create Project  ([Step_1](Steps/Step_1.md))
 Set up the **Whitebox Learning (WBL)** Scrum project in Jira to manage tasks and track progress.
 
 ---
